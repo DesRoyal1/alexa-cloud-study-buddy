@@ -1,0 +1,81 @@
+# Privacy Policy for the "Cloud Study Buddy" Alexa Skill
+
+_Last updated: [DATE]_
+
+This Privacy Policy describes how the **Cloud Study Buddy** Alexa skill ("the Skill") handles information. The Skill is developed by **Desmond Royal** ("the Developer").
+
+By using the Skill on an Alexa-enabled device, you agree to the practices described in this policy.
+
+---
+
+## 1. Information We Collect
+
+The Skill itself does **not** intentionally collect or store any personally identifiable information (PII) such as your name, email address, phone number, or physical address.
+
+When you use the Skill, Amazon processes your voice input and sends the Skill a structured request (intents and slot values). The Skill may receive:
+
+- The intent you invoked (e.g., start quiz, answer question, repeat question)
+- The content of your answer to a quiz question (e.g., "S3", "EC2", etc.)
+- A non-personal user identifier provided by Alexa (e.g., `userId`)
+
+The Developer does **not** use this information to identify you personally.
+
+---
+
+## 2. How Information Is Used
+
+The information sent by Alexa is used only to:
+
+- Determine which question or response to provide
+- Check whether your answer is correct or incorrect
+- Keep track of your score **within the current session**
+
+This information is used in real time to provide the skill’s functionality and is **not** used for marketing, profiling, or resale.
+
+---
+
+## 3. Data Storage and Logging
+
+The Skill runs on **Amazon Web Services (AWS Lambda)**. As part of normal operation:
+
+- Some requests and responses may be logged in **Amazon CloudWatch Logs** for debugging and reliability purposes.
+- These logs may contain non-personal information such as:
+  - The invoked intent name
+  - The type of question asked
+  - Whether an answer was correct or incorrect
+
+The Developer does not use these logs to identify individual users. Logs are used only to monitor and improve the Skill’s performance and reliability.
+
+---
+
+## 4. Third-Party Services
+
+The Skill relies on Amazon’s services, including:
+
+- **Amazon Alexa** for voice recognition and skill invocation
+- **AWS Lambda** and **CloudWatch** for running and monitoring the Skill
+
+Your use of Alexa is also governed by Amazon’s own **Privacy Notice** and **Terms of Use**. Please review Amazon’s policies for more information on how Amazon handles your data.
+
+---
+
+## 5. Children’s Privacy
+
+The Skill is not specifically directed at children under the age of 13 and does not knowingly collect personal information from children. However, it may be used in general educational contexts.
+
+If you believe that the Skill has collected personal information from a child, please contact the Developer (see Contact section below), and reasonable efforts will be made to delete such information from logs where possible.
+
+---
+
+## 6. Changes to This Policy
+
+This Privacy Policy may be updated from time to time. Any changes will be posted at the same URL as this policy. Your continued use of the Skill after changes are posted will signify your acceptance of the updated policy.
+
+---
+
+## 7. Contact
+
+If you have any questions or concerns about this Privacy Policy or how the Skill handles information, you can contact the Developer at:
+
+**Name:** Desmond Royal  
+**Email:** [your email here]
