@@ -1,0 +1,109 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cloud study buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetCloudConceptIntent",
+                    "slots": [
+                        {
+                            "name": "ConceptName",
+                            "type": "Cloud_Concept_Type"
+                        }
+                    ],
+                    "samples": [
+                        "what is {ConceptName} in cloud",
+                        "what does {ConceptName} mean",
+                        "explain {ConceptName}",
+                        "what is {ConceptName}"
+                    ]
+                },
+                {
+                    "name": "QuizMeCloudIntent",
+                    "slots": [],
+                    "samples": [
+                        "ask me a cloud question",
+                        "give me a cloud question",
+                        "quiz me on cloud",
+                        "quiz me"
+                    ]
+                },
+                {
+                    "name": "StudyTipIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me some study motivation",
+                        "help me focus on school",
+                        "how can I study better",
+                        "give me a study tip"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Cloud_Concept_Type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Serverless"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "VPC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lambda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "S3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EC2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
