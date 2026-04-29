@@ -16,19 +16,6 @@
                     "samples": []
                 },
                 {
-                    "name": "HelloWorldIntent",
-                    "slots": [],
-                    "samples": [
-                        "hello",
-                        "how are you",
-                        "say hi world",
-                        "say hi",
-                        "hi",
-                        "say hello world",
-                        "say hello"
-                    ]
-                },
-                {
                     "name": "AMAZON.NavigateHomeIntent",
                     "samples": []
                 },
@@ -41,7 +28,7 @@
                     "slots": [
                         {
                             "name": "ConceptName",
-                            "type": "Cloud_Concept_Type"
+                            "type": "AMAZON.SearchQuery"
                         }
                     ],
                     "samples": [
@@ -69,6 +56,91 @@
                         "help me focus on school",
                         "how can I study better",
                         "give me a study tip"
+                    ]
+                },
+                {
+                    "name": "EvaluateAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "UserAnswer",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "I say {UserAnswer}",
+                        "I think it is {UserAnswer}",
+                        "my answer is {UserAnswer}"
+                    ]
+                },
+                {
+                    "name": "StartQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "Test Me",
+                        "Begin Quiz",
+                        "Quiz me",
+                        "Start Quiz"
+                    ]
+                },
+                {
+                    "name": "HintIntent",
+                    "slots": [],
+                    "samples": [
+                        "Can i have a hint",
+                        "Give me a hint",
+                        "Hint me"
+                    ]
+                },
+                {
+                    "name": "RepeatQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "One more time",
+                        "Again",
+                        "Say that again for me",
+                        "Repeat the question",
+                        "Repeat that for me"
+                    ]
+                },
+                {
+                    "name": "SkipQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "Skip this question",
+                        "Skip this one",
+                        "Next question",
+                        "Next",
+                        "skip"
+                    ]
+                },
+                {
+                    "name": "QuestionsLeftIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many more we got",
+                        "How many questions",
+                        "How many left",
+                        "How many questions left"
+                    ]
+                },
+                {
+                    "name": "CloseSkillIntent",
+                    "slots": [],
+                    "samples": [
+                        "Close Cloud study buddy",
+                        "Exit",
+                        "Close Skill",
+                        "Night Night",
+                        "Bye"
+                    ]
+                },
+                {
+                    "name": "ProgressReportIntent",
+                    "slots": [],
+                    "samples": [
+                        "How am i doing",
+                        "Progress report",
+                        "Hows my progress"
                     ]
                 }
             ],
