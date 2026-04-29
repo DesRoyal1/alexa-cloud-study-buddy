@@ -1,0 +1,30 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+*.pem
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# AWS
+.aws-sam/
+samconfig.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Lambda packaging
+*.zip
+package/
