@@ -2,7 +2,7 @@
 
 > **A voice-first AWS exam prep platform that quizzes you out loud, evaluates your spoken answers in real time, and adapts to your weaknesses.**
 
-Built on Amazon Alexa, AWS Lambda, DynamoDB, and Anthropic's Claude API — with spaced repetition based on the Ebbinghaus forgetting curve.
+Built on Amazon Alexa, AWS Lambda, DynamoDB, and Anthropic's Claude API — with spaced repetition forgetting curve.
 
 ---
 
